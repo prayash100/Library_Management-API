@@ -3,7 +3,7 @@
 
 This project provides a **Library Management API** that allows you to manage books and members in a library system. It supports basic CRUD operations (Create, Read, Update, Delete) for managing books and members. The API is deployed and accessible at the following URL:
 
-[https://library-management-api-4ykh.onrender.com](https://library-management-api-4ykh.onrender.com)
+[https://library-management-api-j1ct.onrender.com](https://library-management-api-j1ct.onrender.com)
 
 **Authorization Header**: All API requests require an **Authorization** key in the header. During the demonstration, you can use the following static authorization key for authentication:
 
@@ -26,7 +26,7 @@ The following sections describe the API endpoints available to interact with the
 This endpoint allows you to retrieve a list of all books in the library.
 
 - **Method:** GET
-- **URL:** `https://library-management-api-4ykh.onrender.com/books/`
+- **URL:** `https://library-management-api-j1ct.onrender.com/books/`
 - **Header (Authorization)**: `Authorization: aaaaaa12`
 
 ##### Example Response:
@@ -54,7 +54,7 @@ This endpoint allows you to retrieve a list of all books in the library.
 This endpoint allows you to add a new book to the library.
 
 - **Method:** POST
-- **URL:** `https://library-management-api-4ykh.onrender.com/books/`
+- **URL:** `https://library-management-api-j1ct.onrender.com/books/`
 - **Request Body:**
   ```json
   {
@@ -82,7 +82,7 @@ This endpoint allows you to add a new book to the library.
 This endpoint allows you to update the details of an existing book in the library.
 
 - **Method:** PUT
-- **URL:** `https://library-management-api-4ykh.onrender.com/books/{id}`
+- **URL:** `https://library-management-api-j1ct.onrender.com/books/{id}`
   - Replace `{id}` with the ID of the book you want to update.
 - **Request Body:**
   ```json
@@ -111,7 +111,7 @@ This endpoint allows you to update the details of an existing book in the librar
 This endpoint allows you to delete a book from the library.
 
 - **Method:** DELETE
-- **URL:** `https://library-management-api-4ykh.onrender.com/books/{id}`
+- **URL:** `https://library-management-api-j1ct.onrender.com/books/{id}`
   - Replace `{id}` with the ID of the book you want to delete.
 - **Header (Authorization)**: `Authorization: aaaaaa12`
 
@@ -131,7 +131,7 @@ This endpoint allows you to delete a book from the library.
 This endpoint allows you to retrieve a list of all members of the library.
 
 - **Method:** GET
-- **URL:** `https://library-management-api-4ykh.onrender.com/members/`
+- **URL:** `https://library-management-api-j1ct.onrender.com/members/`
 - **Header (Authorization)**: `Authorization: aaaaaa12`
 
 ##### Example Response:
@@ -157,7 +157,7 @@ This endpoint allows you to retrieve a list of all members of the library.
 This endpoint allows you to add a new member to the library system.
 
 - **Method:** POST
-- **URL:** `https://library-management-api-4ykh.onrender.com/members/`
+- **URL:** `https://library-management-api-j1ct.onrender.com/members/`
 - **Request Body:**
   ```json
   {
@@ -183,7 +183,7 @@ This endpoint allows you to add a new member to the library system.
 This endpoint allows you to update an existing member's details.
 
 - **Method:** PUT
-- **URL:** `https://library-management-api-4ykh.onrender.com/members/{id}`
+- **URL:** `https://library-management-api-j1ct.onrender.com/members/{id}`
   - Replace `{id}` with the ID of the member you want to update.
 - **Request Body:**
   ```json
@@ -210,7 +210,7 @@ This endpoint allows you to update an existing member's details.
 This endpoint allows you to delete a member from the library.
 
 - **Method:** DELETE
-- **URL:** `https://library-management-api-4ykh.onrender.com/members/{id}`
+- **URL:** `https://library-management-api-j1ct.onrender.com/members/{id}`
   - Replace `{id}` with the ID of the member you want to delete.
 - **Header (Authorization)**: `Authorization: aaaaaa12`
 
@@ -230,7 +230,7 @@ To interact with the API using **Postman**, follow these steps:
 1. Open **Postman** and create a new request.
 2. Set the **method** (GET, POST, PUT, DELETE) based on the operation you want to perform.
 3. Enter the API URL, for example:  
-   `https://library-management-api-4ykh.onrender.com/books/` (for the GET request).
+   `https://library-management-api-j1ct.onrender.com/books/` (for the GET request).
 4. In the **Headers** section, add the **Authorization** key with the value `aaaaaa12`:
    - Key: `Authorization`
    - Value: `aaaaaa12`
@@ -282,4 +282,4 @@ To interact with the API using **Postman**, follow these steps:
 
 ## Conclusion
 
-This API provides a simple way to manage a library's books and members. It allows users to add, update, delete, and view books and members in the system. The deployment is live at [https://library-management-api-4ykh.onrender.com](https://library-management-api-4ykh.onrender.com), and you can interact with it using Postman or curl.
+This API provides a simple way to manage a library's books and members. It allows users to add, update, delete, and view books and members in the system. The deployment is live at [https://library-management-api-j1ct.onrender.com](https://library-management-api-j1ct.onrender.com), and you can interact with it using Postman or curl.
