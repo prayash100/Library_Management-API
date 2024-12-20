@@ -118,7 +118,7 @@ This endpoint allows you to delete a book from the library.
 ##### Example Response:
 ```json
 {
-  "message": "Book with id 1 has been deleted."
+  "message": "Book deleted successfully"
 }
 ```
 
@@ -217,7 +217,7 @@ This endpoint allows you to delete a member from the library.
 ##### Example Response:
 ```json
 {
-  "message": "Member with id 1 has been deleted."
+  "message": "Member deleted successfully"
 }
 ```
 
